@@ -1,28 +1,7 @@
-iso.add(whatevs)
+console.log("Thanks for using Isomerase! For more info, go to https://github.com/isaacrg/isomerase.wiki.git");
 
-var canvas = new isoCanvas("id");
+var isomer = document.createElement('script');
+isomer.src = 'https://raw.githubusercontent.com/isaacrg/isomerase/master/isomer.min.js';
+document.getElementsByTagName("head")[0].appendChild(isomer);
 
-
-{
-  id:canvas,
-  width:5,
-  hight:5,
-  entities[cube{0,0,0,2,3,4,00ff00},goal[path{[0,0,0],[1,0,0],[1,1,0],[0,1,0]}];
-}
-
-function apple(color) {
-  this.color = color
-}
-
-
-var pinkLady = new apple(pinkyRed);
-alert(pinkLady.color)
-x = is
-
-setInterval(isoRender(canvas,1000),);
-
-if (touching(x,y)){
-
-game.config({
-  keyboard: true;
-});
+console.log("Loaded");
